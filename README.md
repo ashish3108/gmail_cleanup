@@ -29,3 +29,8 @@ gems required -> " <br />
   cucumber -t @multiple_times <br />
   
   
+  What Next: <br />
+    1. adding headless mode to make things more faster
+    
+  
+  
