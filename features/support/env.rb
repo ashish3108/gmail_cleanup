@@ -7,7 +7,7 @@ require 'rspec/expectations'
 require 'data_magic'
 require 'pry'
 
-require 'show_me_the_cookies'
+#require 'show_me_the_cookies'
 require_relative 'wait_until_request.rb'
 
 
