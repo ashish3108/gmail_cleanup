@@ -1,9 +1,9 @@
 When(/^login as user_1$/) do
   visit 'gmail'
-  find('#identifierId').set 'ashish.tripathi@traveltriangle.com' #gmail username here
+  find('#identifierId').set '##' #gmail username here
   find('#identifierNext').click
   sleep 5
-  find("#password [type = 'password']").set 'o822s1oo2o' #password here
+  find("#password [type = 'password']").set '##' #password here
   find('#passwordNext').click
   binding.pry
 end
