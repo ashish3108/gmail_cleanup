@@ -4,7 +4,7 @@ Feature: cleanup traveltriangle bugs
 
   @one_time
   Scenario: send to transh and delete
-    Given search label label:traveltriangle_bug
+    Given search label label:xyz #enter label here
     #And search for newer_result
     And select all
     And click on delete
